@@ -1,0 +1,19 @@
+hr {width: 500px; margin: auto;border: 2px solid black;}
+p {color: white;} 
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+	width: 500px;
+	margin: auto;
+}
+
+input.form-control, textarea.form-control {
+	border: none !important;
+	border-radius: none !important;
+	border-bottom:1px solid #ccc !important;
+}
+
+.btn.primary {
+	border-color: #5CBDBC !important;
+	background-color: #5CBD9D !important;
+}
