@@ -13,8 +13,7 @@ input.form-control, textarea.form-control {
 	border-bottom:1px solid #ccc !important;
 }
 
-.btn.primary {
+.btn-primary {
 	border-color: #5CBDBC !important;
 	background-color: #5CBD9D !important;
 }
-

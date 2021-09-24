@@ -1,5 +1,5 @@
 hr {width: 500px; margin: auto;border: 2px solid black;}
-p {color: white;}
+p {color: white;} 
 
 hr.style2 {
 	border-top: 3px double #8c8b8b;
@@ -17,4 +17,3 @@ input.form-control, textarea.form-control {
 	border-color: #5CBDBC !important;
 	background-color: #5CBD9D !important;
 }
-
