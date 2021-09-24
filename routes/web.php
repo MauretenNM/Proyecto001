@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/Proyecto001/public/portfolio', function () {
     return view('portfolio');
 });

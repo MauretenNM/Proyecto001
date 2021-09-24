@@ -8,8 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">   
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
     </head>
     <body>
         <!-- Menú navegación -->
@@ -35,12 +35,12 @@
                     </div>
                 </div>
             </div>
-        </nav> 
+        </nav>
         <!-- Encabezado y avatar-->
-        <header class= "container-fluid"> 
+        <header class= "container-fluid">
             <div class="row" style="height:680px; background-color:#5CBD9D">
                 <div class="col-12 align-self-center text-center">
-                    <img src="images/avatar.png" width="200px" alt="">
+                    <img src="{{ asset('images/avatar.png') }}" width="200px" alt="">
                     <h1>Dr. Mauro</h1>
                     <hr>
                     <p>Maestro Ferretero - Filósofo</p>
@@ -55,22 +55,22 @@
                     <hr class="style2">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/casita.png" alt="casita">
+                    <img src="{{ asset('images/casita.png') }}" alt="casita">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/torta.png" alt="casita">
+                    <img src="{{ asset('images/torta.png') }}" alt="casita">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/circo.png" alt="casita">
+                    <img src="{{ asset('images/circo.png') }}" alt="casita">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/casita.png" alt="casita">
+                    <img src="{{ asset('images/casita.png') }}" alt="casita">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/casita.png" alt="casita">
+                    <img src="{{ asset('images/casita.png') }}" alt="casita">
                 </div>
                 <div class="col-4 text-center mt-5">
-                    <img src="images/casita.png" alt="casita">
+                    <img src="{{ asset('images/casita.png') }}" alt="casita">
                 </div>
             </div>
         </section>
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-12 text-center">
                     <button type="button" class="btn btn-outline-secondary">Free Download</button>
-                </div>           
+                </div>
             </div>
         </section>
         <section class= "container">
@@ -116,7 +116,7 @@
                 </div>
 
 
-                
+
             </div>
         </section>
 |   </body>
